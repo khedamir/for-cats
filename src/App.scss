@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Exo2.0';
+  src: url('../public/Exo2.0-Thin.otf');
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .cardItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin: 80px 0;
+  }
+
+  .main-title {
+    font-size: 36px;
+    font-family: "Exo2.0";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.004);
+    margin: 0;
+  }
+}
